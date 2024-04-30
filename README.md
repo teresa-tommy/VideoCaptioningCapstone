@@ -16,7 +16,7 @@ Description:
 ### Notebook 2: Notebook_Name_2.ipynb
 
 Description:
-- 
+- Enter stuff for running CNN here pls !
 
 ## Data
 
