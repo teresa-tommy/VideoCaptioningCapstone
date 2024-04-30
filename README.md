@@ -5,6 +5,8 @@
 The video captioning task for machine learning models entails the generation of textual descriptions for a given video. 
 Some simpler models have been executed as experiments, with and without adversarial examples, to better understand the pros and cons of existing video captioning models.
 
+Here, notebooks to run the CNN-LSTM and evaluation metrics are included. The LLaVA model was tested directly through its published UI. 
+
 ## Notebooks
 
 ### Notebook 1: Metrics.ipynb
@@ -27,3 +29,7 @@ LLaVA models with and without adversarial examples.
 ## Usage
 
 - Can run jupyter notebooks with data provided here
+
+## Team
+
+- Arian Alam, Teresa Thomas, Patrick Warner, Pranav Prabhu
