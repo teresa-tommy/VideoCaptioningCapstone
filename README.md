@@ -22,7 +22,7 @@ Description:
 
 ## Data
 
-The `data` folder contains relevant datasets used in the notebooks. We based our data on the MSVD dataset. There is the base training data, results from training the CNN-LSTM("greedy") and 
+The `data` folder contains relevant resulting captions used in the notebooks. We based our data on the MSVD testing dataset. There is the base training data, results from training the CNN-LSTM("greedy") and 
 LLaVA models with and without adversarial examples. 
 
 
