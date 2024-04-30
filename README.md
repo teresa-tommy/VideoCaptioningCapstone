@@ -7,13 +7,13 @@ Some simpler models have been executed as experiments, with and without adversar
 
 ## Notebooks
 
-### Notebook 1: [Metrics.ipynb](link_to_notebook_1.ipynb)
+### Notebook 1: Metrics.ipynb
 
 Description:
 - Metrics jupyter notebook shows calculations of metrics for BLEU, ROUGE-L, and METEOR scores for all of the experiments (CNN, CNN-Adversarial, LLaVA, LLaVA-Adversarial).
 - Data folder is referenced
 
-### Notebook 2: [Notebook_Name_2.ipynb](link_to_notebook_2.ipynb)
+### Notebook 2: Notebook_Name_2.ipynb
 
 Description:
 - 
