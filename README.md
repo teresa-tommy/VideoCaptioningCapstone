@@ -7,6 +7,8 @@ Some simpler models have been executed as experiments, with and without adversar
 
 Here, notebooks to run the CNN-LSTM and evaluation metrics are included. The LLaVA model was tested directly through its published UI. 
 
+For more information on our research and findings, read [our paper](https://virginiatech-my.sharepoint.com/:b:/g/personal/aarian_vt_edu/EZlzjoVQiepIresLqWpVmLEBeYLaiXovDFbAHn00-9w_CA?e=KXZVF6).
+
 ## Notebooks
 
 ### Notebook 1: Metrics.ipynb
@@ -25,7 +27,7 @@ Description:
 
 The `data` folder contains relevant resulting captions used in the notebooks. We based our data on the MSVD testing dataset. There is the base training data, results from training the CNN-LSTM("greedy") and 
 LLaVA models with and without adversarial examples. 
-The 'KerasModel' folder contains all relevant information for running the CNN-LSTM included in the notebooks. This folder includes the videos for the testing dataset, a set of already extracted features for said videos, and another copy of both using adversarial data.
+The `KerasModel` folder contains all relevant information for running the CNN-LSTM included in the notebooks. This folder includes the videos for the testing dataset, a set of already extracted features for said videos, and another copy of both using adversarial data.
 
 
 ## Usage
@@ -36,3 +38,10 @@ The 'KerasModel' folder contains all relevant information for running the CNN-LS
 ## Team
 
 - Arian Alam, Teresa Thomas, Patrick Warner, Pranav Prabhu
+
+## References
+
+Code referenced/adapted in the creation of these notebooks can be found at:
+[LLaVA Model](https://github.com/haotian-liu/LLaVA)
+[CNN-LSTM Model](https://github.com/Shreyz-max/Video-Captioning)
+[Caption Evaluation](https://github.com/vsubhashini/caption-eval)
