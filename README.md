@@ -15,20 +15,23 @@ Description:
 - Metrics jupyter notebook shows calculations of metrics for BLEU, ROUGE-L, and METEOR scores for all of the experiments (CNN, CNN-Adversarial, LLaVA, LLaVA-Adversarial).
 - Data folder is referenced
 
-### Notebook 2: Notebook_Name_2.ipynb
+### Notebook 2: Keras_MSVD.ipynb
 
 Description:
-- Enter stuff for running CNN here pls !
+- This Jupyter Notebook contains the code for running a pre-trained CNN-LSTM model for video captioning.
+- KerasModel folder is referenced
 
 ## Data
 
 The `data` folder contains relevant resulting captions used in the notebooks. We based our data on the MSVD testing dataset. There is the base training data, results from training the CNN-LSTM("greedy") and 
 LLaVA models with and without adversarial examples. 
+The 'KerasModel' folder contains all relevant information for running the CNN-LSTM included in the notebooks. This folder includes the videos for the testing dataset, a set of already extracted features for said videos, and another copy of both using adversarial data.
 
 
 ## Usage
 
-- Can run jupyter notebooks with data provided here
+- Can run jupyter notebooks with data provided
+- Keras_MSVD.ipynb was designed to be used in Google Colab, but contains information on adjusting the notebook to run locally. This notebook references the KerasModel folder. To use the notebook as is, place this folder in extracted form at the highest level of your Google Drive directory. Afterwards, just follow the instructions in the notebook to generate your captions!
 
 ## Team
 
